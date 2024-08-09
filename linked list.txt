@@ -1,0 +1,15 @@
+INSERTION --------->
+
+A.Start--->
+if(Head == null)
+{
+Head = new Node(28);
+}
+else
+{
+Node *temp;
+temp = new Node(28);
+temp -> next = Head;
+Head = temp;
+}
+731762a1-f1e4-479b-ae99-9ab99fae8bf9
